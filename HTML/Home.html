@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf=8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/Home.css">
+
+</head>
+<div class="hero">
+    <nav>
+        <img src="../Assets/pizza_2.png" class="logo" alt="">
+        <h1 style="color: white;">Mario</h1>
+
+        <ul>
+            <li><a href="../HTML/Home.html">Home</a></li>
+            <li><a href="../HTML/Order.html">Order</a></li>
+        </ul>
+        <img src="../Assets/man_1.png" class="user-pic" alt="" onclick="toggleMenu()">
+
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="../Assets/man_1.png" alt="">
+                    <h2>Yousef</h2>
+                </div>
+                <hr>
+                <a href="../HTML/Login.html" class="sub-menu-link">
+                <i class='bx bx-log-out'></i>
+                <P>Logout</P>
+                <span></span>
+
+            </a>
+
+            </div>
+        </div>
+    </nav>
+    <h1><i class='bx bxs-pizza'></i> The best pizza in the world<i class='bx bxs-pizza'></i></h1>
+
+    <section class="itms">
+        <div class="itm">
+            <img src="../Assets/alsl-300x200.jpg" alt="">
+            <h4> Chicken Pizza 40$ </h4>
+
+
+        </div>
+        <div class="itm">
+            <img src="../Assets/jdhhdh-300x200.jpg" alt="">
+            <h4>Meat Pizza 60$</h4>
+
+
+        </div>
+        <div class="itm">
+            <img src="../Assets/llop-300x200.jpg" alt="">
+            <h4>Chicken Ranch Pizza 50$</h4>
+
+
+        </div>
+        <div class="itm">
+            <img src="../Assets/nxnc-300x200.jpg" alt="">
+            <h4>Mexican Pizza 70$</h4>
+
+
+        </div>
+        <div class="itm">
+            <img src="../Assets/rororo-300x200.jpg" alt="">
+            <h4>Vegetable Pizza 50$</h4>
+
+
+        </div>
+
+        <div class="itm">
+            <img src="../Assets/dhfhf-300x200.jpg" alt="">
+            <h4>Small Pizza 30$</h4>
+
+
+        </div>
+
+    </section>
+    <div class="images-container">
+        <div class="image-card"><img src="../Assets/1.jpg" alt=""></div>
+        <div class="image-card"><img src="../Assets/506d844aed80e0529ec7ce4200c9b5a38bf752fer1-1000-667v2_uhq.jpg"
+                                     alt=""></div>
+        <div class="image-card"><img src="../Assets/WhatsApp_Image_20230731_a638264323864932500.jpeg" alt=""></div>
+        <div class="image-card"><img src="../Assets/117754.jpeg" alt=""></div>
+        <div class="image-card"><img src="../Assets/jdhhdh-300x200.jpg" alt=""></div>
+    </div>
+    <br><br><br><br><br><br>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-gmail'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</div>
+
+<div class="footer-bottom">
+    <p>copyrigth&copy;2023 team c7.designed by <span>e.y.m</span></p>
+
+
+</div>
+<script>
+    let subMenu = document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+
+</html>

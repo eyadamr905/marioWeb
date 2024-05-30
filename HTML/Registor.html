@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <meta charset="utf=8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/Login.css">
+</head>
+<body>
+<div class="wrap">
+    <h1>Sign Up</h1>
+    <form action="../PHP/Registor.php" method="POST">
+        <div class="inbox">
+
+            <label>
+                <input type="text" name="Username" required placeholder="Username">
+            </label>
+            <i class='bx bx-user'></i>
+
+        </div>
+
+
+        <div class="inbox">
+
+            <label>
+                <input type="Email" name="Email" required placeholder="Email" autofocus>
+            </label>
+            <i class='bx bx-envelope'></i>
+        </div>
+
+        <div class="inbox">
+
+            <label>
+                <input type="Password" name="Password" required placeholder="Password">
+            </label>
+            <i class='bx bx-lock-alt'></i>
+        </div>
+
+        <button type="submit" class="bton">Sign Up</button>
+        <br>
+        <a href="../HTML/Login.html">Login</a>
+
+    </form>
+</div>
+
+
+</body>
+
+
+</html>
